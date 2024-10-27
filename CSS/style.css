@@ -1,0 +1,213 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:  10px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: darkgrey;
+    padding: 20px;
+    margin: 0 0 0 auto;
+}
+nav ul li{
+    margin-right: 60px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+nav ul li a:hover{
+    color: black;
+    border-radius: 5px;
+    padding: 10;
+    background-color: rgb(226, 226, 240);
+}
+.hero-image{
+    /* background-image: url("https://cdn.pixabay.com/photo/2014/03/24/17/15/school-295210_960_720.png"); */
+    background-image: url("https://media.istockphoto.com/id/1249802610/vector/college-educational-institute-school-icon-design.jpg?s=612x612&w=is&k=20&c=E2nM00-2COyED5g5lK-NNmCPoGUVtmLqJCAp7BKO7Xg=");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+
+
+}
+.hero-text{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.hero-text h1{
+    font-size: 35px;
+    margin: 0;
+}
+.hero-text button {
+    background-color: white;
+}
+.hero-text h1{
+    font-size: 40px
+    
+}
+.hero-text p{
+    font-size: 20px;
+}
+#reg-button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+/* facilities */
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.gallery img{
+    width: 30px;
+    border-radius: 8px;
+    height: 35vh;
+    width: 45vh;
+}
+/* gallery style */
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.gallery-item{
+    width: 300px;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0,3);
+
+
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-deatils{
+    background-color: darkslategrey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0 green,0 blue, 1alpha);
+    max-width: 600px;
+    width: 100%;
+}
+.contact-deatils h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    color: #f0f0f0;
+}
+.contact-deatils p{
+    margin: 5px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+iframe{
+    width: 100%;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 10px;
+
+
+
+}
+/* form style */
+.main-container{
+    display: flex;
+    padding: 30px;
+    /* gap: 130px; */
+}
+.form-container{
+    width: 400px;
+    background-color: ;
+    padding: 50px;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0, 0,0, 1);
+
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: black;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+    display: block;
+    font-weight: 400;
+    color: #666;
+}
+.form-group input,
+.form-group select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+.form-group button{
+    color: turquoise;
+    width: 100%;
+    background-color: #007bff;
+    padding: 12px;
+    font-weight: 450;
+    cursor: pointer;
+    border-radius: 8px;
+}.radio-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+/* table styles */
+.table-container{
+    width: 500px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 1);
+    align-items: right;
+}
+table{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+table,th,td{
+    border: 1px solid black;
+
+}
+th,td{
+    padding: 12px;
+    align-items: left;
+
+}
